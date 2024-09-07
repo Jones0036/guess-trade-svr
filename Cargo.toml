@@ -1,0 +1,14 @@
+[package]
+name = "guess-trade-svr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.5"
+tokio = { version = "1.0", features = ["full"] }
+ftlog = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+
+tower-http = { version = "0.5.0", features = ["trace"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
