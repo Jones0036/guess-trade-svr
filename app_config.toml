@@ -1,0 +1,12 @@
+trade_start_nanos = 1230000000000000000
+init_balance = 1000
+fee = 10
+users = [
+"a",
+"b"
+]
+
+asks = [
+ { price = 100, vol = 2 },
+ { price = 101, vol = 2 },
+]
